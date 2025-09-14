@@ -3,10 +3,11 @@
 This project develops a machine learning system to detect fraudulent insurance claims. It applies data preprocessing, exploratory data analysis, and multiple ML algorithms to build a predictive model that can classify claims as legitimate or fraudulent.The final outcome is a fraud detection model that can support insurance companies in minimizing financial losses and improving risk management.
 
 
-# About the DataSet
+# About the Dataset
 
 This dataset is from a project at Indian Institute of Management Calcutta, contains 1,000 insurance claim records labeled as fraudulent or legitimate.
 It includes customer demographics, policy information, incident details, vehicle data, and claim amounts, with 38 explanatory features and 1 target variable (fraud_reported). This makes it well-suited for developing and evaluating machine learning models for insurance fraud detection.
+
 
 
 ## 🔄 Project Workflow
@@ -46,6 +47,7 @@ It includes customer demographics, policy information, incident details, vehicle
    - Used **SHAP** to interpret predictions and identify key fraud indicators.
   
 
+
 ## 📈 Results
 
 Several machine learning models were trained and evaluated on the insurance fraud dataset.  
@@ -69,6 +71,7 @@ The performance was measured using Accuracy, Precision, Recall, F1-Score, and RO
 - Balanced precision & recall  
 - ROC-AUC: ~0.82  
 - Interpretable with SHAP feature importance  
+
 
 
 ## ✅ Conclusion
